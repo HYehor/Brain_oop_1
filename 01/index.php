@@ -58,6 +58,7 @@ echo BR;
 
 
 
+//создание экземпляров классов
 
 $asus = new Asus('Asus', 16, "GeForce 15808", 500, 'Asus');
 echo $asus->printParameters();
